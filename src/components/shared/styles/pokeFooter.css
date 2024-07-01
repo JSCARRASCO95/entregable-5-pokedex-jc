@@ -1,0 +1,41 @@
+.pokefooter {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.pokefooter__red {
+    width: 100%;
+    height: 50px;
+    background-color: #e80909;
+}
+
+.pokefooter__black {
+    height: 40px;
+    background-color: #000; 
+    display: flex;
+    justify-content: center;
+}
+
+.pokefooter__outcircle {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border: 6px solid #000;
+    border-radius: 50%;
+    position: relative;
+    top: -20px; /* Ajusta la posición vertical del círculo */
+}
+
+.pokefooter__incircle {
+    width: 35px;
+    height: 35px;
+    border: 4px solid #000;
+    border-radius: 50%;
+    background-color: #72727295;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,21 @@
+.homepage {
+    height: calc(100vh - 110px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    text-align: center;    
+    align-items: center;    
+}
+.homepage__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
